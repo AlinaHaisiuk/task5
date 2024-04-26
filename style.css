@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 div > p {
   background-color: yellow;
 }
@@ -36,4 +41,10 @@ p {
 
 .article > p {
   color: aqua;
+}
+
+.header {
+  text-align: center;
+  background-color: beige;
+  padding: 10px 0;
 }
