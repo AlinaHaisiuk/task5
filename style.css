@@ -3,10 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-div > p {
-  background-color: yellow;
-}
-
 .color-class {
   color: green;
 }
@@ -62,4 +58,16 @@ p {
   color: rgb(233, 125, 1);
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.tasks {
+  text-align: justify;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 3px solid chocolate;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+.tasks h2 {
+  margin: 10px 10px;
 }
