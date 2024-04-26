@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color-class {
+  color: green;
+}
+
+#color-id {
+  color: red;
+}
+
+[data-color="blue"] {
+  color: blue;
+}
+
+.container p {
+  color: purple;
+}
+
+div p.context-selector {
+  color: orange;
+}
+
+div + p {
+  color: pink;
+}
+
+.container#combo p {
+  color: brown;
+}
+
+p {
+  color: black;
+}
+
+.article > p {
+  color: aqua;
+}
+
+.header {
+  text-align: center;
+  background-color: beige;
+  padding: 10px 0;
+}
+.links {
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 3px solid chocolate;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(233, 125, 1);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.tasks {
+  text-align: justify;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 3px solid chocolate;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+.tasks h2 {
+  margin: 10px 10px;
+}
