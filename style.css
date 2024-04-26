@@ -1,0 +1,39 @@
+div > p {
+  background-color: yellow;
+}
+
+.color-class {
+  color: green;
+}
+
+#color-id {
+  color: red;
+}
+
+[data-color="blue"] {
+  color: blue;
+}
+
+.container p {
+  color: purple;
+}
+
+div p.context-selector {
+  color: orange;
+}
+
+div + p {
+  color: pink;
+}
+
+.container#combo p {
+  color: brown;
+}
+
+p {
+  color: black;
+}
+
+.article > p {
+  color: aqua;
+}
